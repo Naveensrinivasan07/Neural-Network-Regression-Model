@@ -52,10 +52,10 @@ class NeuralNet(nn.Module):
   def __init__(self):
         super().__init__()
         # Include your code here
-        self.fc1 = nn.Linear(1,5)
-        self.fc2 = nn.Linear(5,8)
-        self.fc3 = nn.Linear(8,5)
-        self.fc4 = nn.Linear(5,1)
+        self.fc1 = nn.Linear(1,4)
+        self.fc2 = nn.Linear(4,7)
+        self.fc3 = nn.Linear(7,4)
+        self.fc4 = nn.Linear(4,1)
         self.relu = nn.ReLU()
         self.history = {'loss': []}
 
@@ -106,13 +106,13 @@ print(f'Prediction: {prediction}')
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
+![ஸ்கிரீன்ஷாட் 2025-03-03 114409](https://github.com/user-attachments/assets/aa23f750-199c-47bc-b957-c5cb7b32fff7)
 
 
-### New Sample Data Prediction![ஸ்கிரீன்ஷாட் 2025-03-03 112537](https://github.com/user-attachments/assets/f5e0ae83-b995-4890-ba22-4b49f8b6bb3e)
+### New Sample Data Prediction
 
+![ஸ்கிரீன்ஷாட் 2025-03-03 114520](https://github.com/user-attachments/assets/57024be8-0ac0-4abb-b7ef-846147d1bd8d)
 
-
-![ஸ்கிரீன்ஷாட் 2025-03-03 113020](https://github.com/user-attachments/assets/fc51c981-efb5-4135-9d83-fb3d872d94ef)
 
 ## RESULT
 The neural network regression model was successfully trained and evaluated. The model demonstrated strong predictive performance on unseen data, with a low error rate.
