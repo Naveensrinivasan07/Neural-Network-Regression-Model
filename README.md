@@ -10,7 +10,8 @@ Explain the problem statement
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+![ஸ்கிரீன்ஷாட் 2025-03-03 112816](https://github.com/user-attachments/assets/ce13c147-5f8d-44eb-ad65-3a2046021254)
+
 
 ## DESIGN STEPS
 
@@ -98,19 +99,18 @@ print(f'Prediction: {prediction}')
 ```
 ## Dataset Information
 
-Include screenshot of the dataset
+
 ![ஸ்கிரீன்ஷாட் 2025-03-03 113059](https://github.com/user-attachments/assets/80a5a47a-16a3-4061-ae45-05238647ebb4)
 
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
 
-Include your plot here
 
 ### New Sample Data Prediction![ஸ்கிரீன்ஷாட் 2025-03-03 112537](https://github.com/user-attachments/assets/f5e0ae83-b995-4890-ba22-4b49f8b6bb3e)
 
 
-Include your sample input and output here
+
 ![ஸ்கிரீன்ஷாட் 2025-03-03 113020](https://github.com/user-attachments/assets/fc51c981-efb5-4135-9d83-fb3d872d94ef)
 
 ## RESULT
